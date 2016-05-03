@@ -1,0 +1,13 @@
+<footer>
+    <ul>
+        {{ range $service, $url := .Site.Params.Social }}
+            <li>
+                <a href="{{ $url }}">{{ $service }}</a>
+            </li>
+        {{ end }}
+    </ul>
+
+    <small>
+        &copy; {{ .Site.Params.Copyright.Year }} {{ .Site.Params.Author }}
+    </small>
+</footer>

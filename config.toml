@@ -1,0 +1,28 @@
+baseurl = "https://www.kieranajp.uk/"
+languageCode = "en-gb"
+title = "Kieran Patel | Web Developer"
+
+[Params]
+    Author = "Kieran Patel"
+
+    [Params.About]
+        Title = "About Me"
+        Text = "I am devlopor"
+
+    [Params.Social]
+        Twitter = "https://twitter.com/kieranajp"
+        Github = "https://github.com/kieranajp"
+        "Last.fm" = "https://last.fm/user/kieranajp"
+        LinkedIn = "https://linkedin.com/in/kieranajp"
+        Instagram = "https://www.instagram.com/kieran"
+
+    [Params.Copyright]
+        Year = "2016"
+
+    [Params.Articles]
+        Title = "Articles"
+        Folder = "articles"
+
+    [Params.Work]
+        Title = "Work"
+        Folder = "work"
