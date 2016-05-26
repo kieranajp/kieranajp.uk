@@ -1,39 +1,25 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Kieran Patel http://kajp.im">
-    {{ .Hugo.Generator }}
-    <title>{{ .Title }}</title>
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-</head>
-<body>
-    <div class="container">
-        {{ partial "nav.html" . }}
+{{ partial "top.html" . }}
 
-        {{ partial "header.html" . }}
+{{ partial "header.html" . }}
 
-        <main>
-            <section>
-                <h1>
-                    {{ .Site.Params.About.Title }}
-                </h1>
+    <main>
+        <section>
+            <h1>
+                {{ .Site.Params.About.Title }}
+            </h1>
 
-                <p>
-                    {{ .Site.Params.About.Text }}
-                </p>
-            </section>
+            <p>
+                {{ .Site.Params.About.Text }}
+            </p>
+        </section>
 
-            {{ $.Scratch.Set "title" "Articles" }}
-            {{ $.Scratch.Set "section" "articles" }}
-            {{ partial "section.html" . }}
+        {{ $.Scratch.Set "title" "Articles" }}
+        {{ $.Scratch.Set "section" "articles" }}
+        {{ partial "section.html" . }}
 
-            {{ $.Scratch.Set "title" "Work" }}
-            {{ $.Scratch.Set "section" "work" }}
-            {{ partial "section.html" . }}
-        </main>
+        {{ $.Scratch.Set "title" "Work" }}
+        {{ $.Scratch.Set "section" "work" }}
+        {{ partial "section.html" . }}
+    </main>
 
-        {{ partial "footer.html" . }}
-    </div>
-</body>
-</html>
+{{ partial "bottom.html" . }}

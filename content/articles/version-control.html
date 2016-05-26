@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<p>+++
+date = &#8220;2014&#8211;10&#8211;01T22:11:51+01:00&#8221;
+draft = true
+title = &#8220;Version Control is not scary or hard!&#8221;</p>
+
+<p>+++</p>
+
+<p>Recently, I was reminded (by virtue of a panicked tweet from a designer who had deleted a website) that there are many people making websites today who are unfamiliar with the concept of version control.</p>
+
+<p>Had the designer been using version control, this would have been little more than a mild inconvenience; not remotely worth panicking about.</p>
+
+<p>Now I&#8217;ve seen many an &#8220;introduction to Git&#8221; article around that does little more than list a series of Unix commands, guaranteed to turn anyone who is not already comfortable with using Git via the command-line off within about four seconds. These, I feel, are not accurate represenations of how one could be using Git, and do more harm than good.</p>
+
+<p>Version control is not hard. It&#8217;s not scary. It does not require any programming knowledge, and despite what you may read on some sites, does not require ever opening a Terminal window in order to reap the benefits.</p>
+
+<p>I&#8217;ve even set up some clients, who would not describe themselves as technical, using version control to make content updates.</p>
+
+<p><em>N.B.: There are a whole bunch of different version control systems out there, each with different pros and cons - Subversion (SVN), Mercurial (HG), and Team Foundation Server (TFS), to name but a few. However, arguably the most popular (and my personal favourite) is Git, so while the crux of this article pertains to any version control system, I&#8217;ll be mentioning Git by name and in examples.</em></p>
+
+<h2 id="okaywhatdoesitactuallygiveme">Okay, what does it actually give me?</h2>
+
+<p>Does this look familiar?</p>
+
+<figure>
+<img src="/" alt="image" title="A folder structure containing several .docx files all named the same with different version numbers" />
+<figcaption>image</figcaption>
+</figure>
+
+<p>How about this?</p>
+
+<figure>
+<img src="/" alt="email" title="An email asking if the attached document is the latest one and if not can they send the updates" />
+<figcaption>email</figcaption>
+</figure>
+
+<p>If you&#8217;re using version control, you can kiss goodbye to these scenarios.</p>
+
+<p>A VCS allows you to turn a regular folder on your computer into a &#8216;time machine&#8217; (or &#8216;repository&#8217;, but that doesn&#8217;t sound quite so cool). Within that folder, every change you make to a file is tracked, and at any point you can &#8216;save&#8217; your progress (this is called a &#8216;commit&#8217;, in Git nomenclature). It&#8217;s possible to move between commits - travel through time, if you will. Want to see what a file looked like a year ago? It&#8217;s easy to find out. Want to experiment with some changes, but have piece of mind in case something goes wrong? Go ahead, you can roll the changes back if they don&#8217;t work out, or keep them if they do.</p>
+
+<h3 id="gitservers">Git servers</h3>
+
+<p>The magic really happens, though, when you hook the repository up to a Git server. You may have heard of GitHub or Bitbucket - these sites provide Git servers for you to use with none of the setup hassle. Doing so will create a full backup of your repository, and all it&#8217;s time-travelling capabilities.</p>
+
+<p>Want to transfer your work to a laptop for the road? Download the complete repository from the server. Your computer gets stolen or broken? Download the complete repository from the server. Not sure if you have the latest version? Pull down from the server to bring yourself back up to date.</p>
+
+<p>The scenarios in the images above literally become ancient history.</p>
+
+<h3 id="gitfordeployment">Git for deployment</h3>
+
+<p>If you&#8217;re making a website, with a little configuration Git can even be used for deployment. See if this sounds familiar: firing up an FTP client and painstakingly uploading each file you&#8217;ve changed, then worrying whether or not somebody has made their own changes on the server that you might be overwriting, then finding out the next day that your changes have been overwritten by someone else. If your server is configured to just pull the latest changes from Git, you can turn off FTP (which you really shouldn&#8217;t be using anyway), and all of the above problems simply cease to exist.</p>
+
+<h2 id="givegitago">Give Git a Go</h2>
+
+<p>No matter how you work, if you&#8217;re working on anything - even Office files and other typically non-developer stuff! - Git will make your life a million times easier.</p>
+
+<p>Unfortunately, since Git started life as a command-line tool, a lot of the tutorials out there refer to cracking open Terminal.app and typing what some people refer to &#8220;gobbledegook&#8221;.</p>
+
+<p>Don&#8217;t let this deter you!</p>
+
+<p>While I believe it&#8217;s important to have an understanding of how the terminal works, if you&#8217;re just dipping your toe into version control it&#8217;s easier to use something like the excellent <a href="http://sourcetree.com">SourceTree</a>. With this, you can reap 90% of the benefits of Git without ever even seeing a command prompt.</p>
+
+<p>In fact, this is exactly I&#8217;ve set up some previous, only semi-technical, clients with Git. I&#8217;ve watched designers, content strategists, and copywriters go from zero to competent at using Git/SourceTree in just a few days.</p>
+
+<p>So: designers, SEO consultants, copywriters, accountants - anyone who works with files and folders on a computer in fact: I urge you to please give Git a go. You&#8217;ll wonder how you lived without it.</p>
+
+</body>
+</html>

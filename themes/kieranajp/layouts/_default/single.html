@@ -1,7 +1,9 @@
-{{ partial "nav.html" . }}
+{{ partial "top.html" . }}
 
-<main>
+{{ partial "header.html" . }}
 
-</main>
+    <main>
+        {{ .Content }}
+    </main>
 
-{{ partial "footer.html" . }}
+{{ partial "bottom.html" . }}
