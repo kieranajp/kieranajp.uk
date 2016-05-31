@@ -1,14 +1,22 @@
 header
     text-align: center
     background-color: #00ffcc
-    padding-top: 20%
     color: white
-    margin: 0 -2rem 3rem -2rem
+    margin: 0 -2rem
     border-top: 1px solid
     composes: border-color from '../global/colors.css'
 
-    @media screen and (min-width: 1024px)
-        padding-top: 15%
+    h1
+        font-family: 'VeneerThree'
+        font-size: 5rem
+        line-height: 5rem
+        font-weight: lighter
+        padding: 5% 0
+        margin: 0 auto
+        width: 96%
+
+        @media screen and (min-width: 1024px)
+            width: 80%
 
     p
         font-size: 1.4rem
@@ -18,11 +26,6 @@ header
         padding-bottom: 15%
         @media screen and (min-width: 1024px)
             padding-bottom: 10%
-
-    h1
-        font-family: 'VeneerThree'
-        font-size: 5rem
-        line-height: 5rem
 
     a
         display: block
@@ -36,3 +39,7 @@ header
         &:hover
             text-decoration: none
 
+    &.jumbotron
+        padding-top: 15%
+        h1
+            padding: 0

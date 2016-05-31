@@ -2,7 +2,7 @@
 date = "2014-10-01T22:11:51+01:00"
 draft = true
 title = "Version Control is not scary or hard!"
-
+strap = "Even if you're not really technical, I believe you can really benefit from Version Control."
 +++
 
 Recently, I was reminded (by virtue of a panicked tweet from a designer who had deleted a website) that there are many people making websites today who are unfamiliar with the concept of version control.

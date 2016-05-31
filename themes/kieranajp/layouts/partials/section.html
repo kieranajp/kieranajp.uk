@@ -1,11 +1,12 @@
 <section id="section-{{ $.Scratch.Get "section" }}">
     <h1>{{ $.Scratch.Get "title" }}</h1>
 
-    <ul>
-        {{ range first 3 (where .Data.Pages.ByDate "Section" ($.Scratch.Get "section")) }}
+    <ul class="article-panes">
+        {{ range first 3 (where .Data.Pages.ByDate.Reverse "Section" ($.Scratch.Get "section")) }}
             <li>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-                <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <p>{{ .Params.strap }}</p>
+                <aside class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</aside>
             </li>
         {{ end }}
     </ul>

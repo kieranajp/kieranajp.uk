@@ -19,7 +19,20 @@ section
             border-top: 1px solid
             opacity: 0.2
 
-    li
-        display: inline-block
-        margin-left: 1rem
-        margin-right: 1rem
+    .article-panes
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+
+        li
+            padding: 0 1rem
+            flex-grow: 1
+            flex-basis: 0
+
+        h2
+            font-size: 1.2rem
+            line-height: 1.6rem
+
+        aside
+            font-size: 0.75rem
+            color: darken($subtle-color, 20%)

@@ -1,7 +1,12 @@
 {{ partial "top.html" . }}
 
     <main>
-    asjdoan
+        <ol>
+            {{ range .Data.Pages.ByDate.Reverse }}
+               <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ol>
+
     </main>
 
 {{ partial "bottom.html" . }}
