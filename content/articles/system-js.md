@@ -1,6 +1,5 @@
 +++
 date = "2015-10-05T00:30:25+01:00"
-draft = true
 title = "Throwing ideas together with System.JS"
 strap = "Getting started with a new JavaScript project without getting bogged down in boilerplate hell."
 +++
@@ -128,14 +127,14 @@ This allows you to use pretty much any library you want to, without worrying abo
 And just to wrap up, because this is getting long, this is how you could load in an external module, if you did need to start using libraries:
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.18.4/system.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.25/browser.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/systemjs/0.18.4/system.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.25/browser.js"></script>
 <script>
     System.config({
         transpiler: 'babel',
         defaultJSExtensions: true,
         map: {
-            'lodash': 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'
+            'lodash': '//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'
         }
     });
 

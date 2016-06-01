@@ -15,21 +15,25 @@ Version control is not hard. It's not scary. It does not require any programming
 
 I've even set up some clients, who would not describe themselves as technical, using version control to make content updates.
 
-_N.B.: There are a whole bunch of different version control systems out there, each with different pros and cons - Subversion (SVN), Mercurial (HG), and Team Foundation Server (TFS), to name but a few. However, arguably the most popular (and my personal favourite) is Git, so while the crux of this article pertains to any version control system, I'll be mentioning Git by name and in examples._
+> N.B.: There are a whole bunch of different version control systems out there, each with different pros and cons - Subversion (SVN), Mercurial (HG), and Team Foundation Server (TFS), to name but a few. However, arguably the most popular (and my personal favourite) is Git, so while the crux of this article pertains to any version control system, I'll be using the Git vernacular.
 
 ## Okay, what does it actually give me?
 
 Does this look familiar?
 
-![image](/ "A folder structure containing several .docx files all named the same with different version numbers")
+![image](/images/articles/version-control/henderson-report.png "A folder structure containing several .docx files all named the same with different version numbers")
+
+This is, in a way, a very primitive form of version control; after all, you are keeping track of versions to keep some sort of a history.
 
 How about this?
 
-![email](/ "An email asking if the attached document is the latest one and if not can they send the updates")
+![email](/images/articles/version-control/henderson-email.png "An email asking if the attached document is the latest one and if not can they send the updates")
 
-If you're using version control, you can kiss goodbye to these scenarios.
+If you're using version control, you can kiss goodbye to this scenario.
 
 A VCS allows you to turn a regular folder on your computer into a 'time machine' (or 'repository', but that doesn't sound quite so cool). Within that folder, every change you make to a file is tracked, and at any point you can 'save' your progress (this is called a 'commit', in Git nomenclature). It's possible to move between commits - travel through time, if you will. Want to see what a file looked like a year ago? It's easy to find out. Want to experiment with some changes, but have piece of mind in case something goes wrong? Go ahead, you can roll the changes back if they don't work out, or keep them if they do.
+
+> For me, version control has become the equivalent of `File > Save` in the 1990s: saving your document took a minute or two, so you didn't do it so often. These days, I at least have `cmd+s` compulsion (or even autosave), so the habit of making a conscious decision of saving for me has moved to committing, instead.
 
 ### Git servers
 

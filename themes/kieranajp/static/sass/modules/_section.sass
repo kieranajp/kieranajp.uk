@@ -19,20 +19,31 @@ section
             border-top: 1px solid
             opacity: 0.2
 
-    .article-panes
+.article-panes
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    list-style-type: none
+    padding: 0
+
+    @media screen and (min-width: 820px)
+        flex-direction: row
+
+    li
         display: flex
-        justify-content: space-between
-        list-style-type: none
+        flex-direction: column
+        padding: 0 1rem
+        flex-grow: 1
+        flex-basis: 0
 
-        li
-            padding: 0 1rem
-            flex-grow: 1
-            flex-basis: 0
+    h2
+        flex-grow: 1
+        font-size: 1.2rem
+        line-height: 1.6rem
 
-        h2
-            font-size: 1.2rem
-            line-height: 1.6rem
+    p
+        margin-top: 0
 
-        aside
-            font-size: 0.75rem
-            color: darken($subtle-color, 20%)
+    aside
+        font-size: 0.75rem
+        color: darken($subtle-color, 20%)

@@ -1,12 +1,17 @@
 {{ partial "top.html" . }}
+{{ partial "header.html" . }}
 
-    <main>
-        <ol>
-            {{ range .Data.Pages.ByDate.Reverse }}
-               <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end }}
-        </ol>
+<main>
+    <ol class="article-panes">
+        {{ range .Data.Pages.ByDate.Reverse }}
+        <li>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Params.strap }}</p>
+            <aside class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</aside>
+        </li>
+        {{ end }}
+    </ol>
 
-    </main>
+</main>
 
 {{ partial "bottom.html" . }}
