@@ -1,6 +1,5 @@
 +++
 date = "2014-10-01T22:11:51+01:00"
-draft = true
 title = "Version Control is not scary or hard!"
 strap = "Even if you're not really technical, I believe you can really benefit from Version Control."
 +++
@@ -21,13 +20,13 @@ I've even set up some clients, who would not describe themselves as technical, u
 
 Does this look familiar?
 
-![image](/images/articles/version-control/henderson-report.png "A folder structure containing several .docx files all named the same with different version numbers")
+![image](henderson-report.png "A folder structure containing several .docx files all named the same with different version numbers")
 
 This is, in a way, a very primitive form of version control; after all, you are keeping track of versions to keep some sort of a history.
 
 How about this?
 
-![email](/images/articles/version-control/henderson-email.png "An email asking if the attached document is the latest one and if not can they send the updates")
+![email](henderson-email.png "An email asking if the attached document is the latest one and if not can they send the updates")
 
 If you're using version control, you can kiss goodbye to this scenario.
 
