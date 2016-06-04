@@ -1,6 +1,6 @@
 +++
 date = "2014-10-01T22:11:51+01:00"
-title = "Version Control is not scary or hard!"
+title = "Git is not scary or hard!"
 strap = "Even if you're not really technical, I believe you can really benefit from Version Control."
 +++
 
