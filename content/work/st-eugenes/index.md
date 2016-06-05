@@ -31,4 +31,8 @@ This being a simple site, though, it was a simple build. The site came in under-
 
 The school were delighted with their new website, and find the content very easy to update. News and events are updated on a regular basis - hugely important so the content stays relevant - and the site receives a modest but consistent number of visits, mainly through organic search but often via Facebook shares as well. These visitors tend to take their time to peruse the site, too - reading up on the school news mostly - so the site has a fairly low bounce rate.
 
+Interestingly, 51% of the visitors to the website have been from mobile devices or tablets. The low bounce rate within even this context speaks volumes to the benefits of the responsive design, and, I believe, my usual focus on speed and performance.
+
+![](mobile.png "The site displayed on a smartphone")
+
 It remains to be seen if the site will attract more parents and pupils to the school in future school years, but even without that data it's obvious that the site is a great platform for the school to kick off their online presence.

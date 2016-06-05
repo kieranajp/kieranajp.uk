@@ -6,12 +6,7 @@
         <article>
             <h1>{{ .Params.strap }}</h1>
 
-            <a href="{{ .Params.site }}" target="_blank" class="site-preview">
-                <img src="screenshot.png" />
-                <aside>
-                    See the finished product
-                </aside>
-            </a>
+            {{ partial "link_to_work.html" . }}
 
             {{ .Content }}
         </article>
