@@ -1,0 +1,28 @@
+.site-preview
+    display: flex
+    flex-direction: column
+    margin: 3rem auto
+    border-radius: 4px
+    border: 1px solid $subtle-color
+    padding: 4px
+    text-align: center
+    transition: all 0.2s
+    max-width: 80%
+
+    @media screen and (min-width: 600px)
+        max-width: 50%
+        flex-direction: row
+
+    &:hover
+        border-color: $brand-color
+        box-shadow: 0px 0px 5px $brand-color
+
+    img
+        max-height: 12rem
+        padding: 0
+
+    aside
+        font-size: 1rem
+        color: $link-color
+        align-self: center
+        margin: 1rem
