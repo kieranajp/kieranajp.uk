@@ -3,14 +3,10 @@
 {{ partial "jumbotron.html" . }}
 
     <main>
-        <section>
-            <h1>
-                {{ .Site.Params.About.Title }}
-            </h1>
-
-            <p>
-                {{ .Site.Params.About.Text }}
-            </p>
+        <section class="freetext">
+            {{ range where .Data.Pages "Title" "Home" }}
+                    {{ .Content }}
+            {{ end }}
         </section>
 
         {{ $.Scratch.Set "title" "Articles" }}

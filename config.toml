@@ -18,6 +18,7 @@ pygmentsstyle = "solarizedlight"
         "Last.fm" = "https://last.fm/user/kieranajp"
         LinkedIn = "https://linkedin.com/in/kieranajp"
         Instagram = "https://www.instagram.com/kieran"
+        Flickr = "https://www.flickr.com/kieranajp"
 
     [Params.Copyright]
         Year = "2016"

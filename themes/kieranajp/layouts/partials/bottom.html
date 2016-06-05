@@ -1,4 +1,23 @@
     </div>
     {{ partial "footer.html" . }}
+
+    <script>
+        (function () {
+            'use strict';
+
+            // Make external links open in a new tab.
+            var links = document.getElementsByTagName('a');
+            for (var i = 0; i < links.length; ++i) {
+                var href = links[i].getAttribute('href');
+
+                if (href.indexOf('http://' + window.location.hostname) !== -1
+                    || href.indexOf('//') === -1) {
+                    continue;
+                }
+
+                links[i].target = '_blank';
+            }
+        }());
+    </script>
 </body>
 </html>
