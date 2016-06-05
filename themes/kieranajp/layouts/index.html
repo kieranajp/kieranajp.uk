@@ -3,7 +3,7 @@
 {{ partial "jumbotron.html" . }}
 
     <main>
-        <section class="freetext">
+        <section id="about" class="freetext">
             {{ range where .Data.Pages "Title" "Home" }}
                     {{ .Content }}
             {{ end }}
