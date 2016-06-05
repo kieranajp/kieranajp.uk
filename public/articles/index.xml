@@ -1,51 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kieran Patel | Web Developer</title>
-    <link>https://www.kieranajp.uk/</link>
-    <description>Recent content on Kieran Patel | Web Developer</description>
+    <title>Articles on Kieran Patel | Web Developer</title>
+    <link>https://www.kieranajp.uk/articles/</link>
+    <description>Recent content in Articles on Kieran Patel | Web Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 14 Dec 2015 23:53:27 +0100</lastBuildDate>
-    <atom:link href="https://www.kieranajp.uk/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>St. Eugene&#39;s Primary School</title>
-      <link>https://www.kieranajp.uk/work/st-eugenes/</link>
-      <pubDate>Mon, 14 Dec 2015 23:53:27 +0100</pubDate>
-      
-      <guid>https://www.kieranajp.uk/work/st-eugenes/</guid>
-      <description>
-
-&lt;p&gt;This little school in Northern Ireland had managed to scrape together the budget for a small website, so I was thrilled to be contacted and offered the opportunity to design and develop it.&lt;/p&gt;
-
-&lt;h2 id=&#34;requirements:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Requirements&lt;/h2&gt;
-
-&lt;p&gt;The requirements of the website were simple: the school had zero online presence, and a website would allow them to be easier to find by parents choosing a school for their kids as well as connect more easily with the parents of existing pupils - for example by showing upcoming events, or school closures. The school also put out a monthly newsletter for parents and wanted this to be available online. Based on these requirements, I knew I&amp;rsquo;d need to offer them an easy-to-use CMS with support for newsletter articles and events - I&amp;rsquo;ve extensive experience with &lt;a href=&#34;https://grabaperch.com&#34;&gt;Perch&lt;/a&gt; so recommended that, as it fits the bill nicely.&lt;/p&gt;
-
-&lt;p&gt;The school&amp;rsquo;s only existing brand collateral was their school crest, uniforms, and the aforementined newsletter that didn&amp;rsquo;t really follow the brand at all but was a good indicator of the tone of voice and the sort of content they wanted to put out. My point of contact at the school was fantastic at quickly sending me dozens of reasonably high-resolution photographs of the school grounds and of pupils hard at work. I was also sent the names and websites of some other schools in their immediate area.&lt;/p&gt;
-
-&lt;h2 id=&#34;design-build:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Design &amp;amp; Build&lt;/h2&gt;
-
-&lt;p&gt;The first stage of the design, as always, was to work out the content. Careful not to get bogged down in their structures, I looked carefully at these other schools&amp;rsquo; websites to find out what information a primary school website can be expected to provide. Armed with this information (plus the requirements above) I was able to draw up a basic information architecture, and from there use the colours from the uniform and the crest to inform a palette.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;colors.png&#34; alt=&#34;&#34; title=&#34;Basic colour palette created by sampling the school uniform and logo&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After some looking into typefaces and a bit of a back-and-forth with the client to get feedback, it was time to look at design. When creating responsive websites such as this I don&amp;rsquo;t like to create a pixel-perfect layout to be approved, as that&amp;rsquo;s frankly a lie. The layout will not appear the same on different devices with different screen sizes and browser. So I created enough to give the client an idea of what I wanted to build, without committing to a strict page layout.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;style_tile.png&#34; alt=&#34;&#34; title=&#34;The final style tile that was approved&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After getting this approved, I got stuck into coding. As always, I was regularly uploading my progress to a server so the client could watch as the work was completed. As suspected, Perch and its Blog module were more than up to the task. However, the most challenging part of the build was the &lt;a href=&#34;http://www.steugenesps.com/events/&#34;&gt;Event Calendar&lt;/a&gt;, which required some fairly &amp;ldquo;creative&amp;rdquo; hacks to get the Events module to render events spanning multiple days.&lt;/p&gt;
-
-&lt;p&gt;This being a simple site, though, it was a simple build. The site came in under-budget, and launched in time for the new school year.&lt;/p&gt;
-
-&lt;h2 id=&#34;results:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Results&lt;/h2&gt;
-
-&lt;p&gt;The school were delighted with their new website, and find the content very easy to update. News and events are updated on a regular basis - hugely important so the content stays relevant - and the site receives a modest but consistent number of visits, mainly through organic search but often via Facebook shares as well. These visitors tend to take their time to peruse the site, too - reading up on the school news mostly - so the site has a fairly low bounce rate.&lt;/p&gt;
-
-&lt;p&gt;It remains to be seen if the site will attract more parents and pupils to the school in future school years, but even without that data it&amp;rsquo;s obvious that the site is a great platform for the school to kick off their online presence.&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Mon, 05 Oct 2015 00:30:25 +0100</lastBuildDate>
+    <atom:link href="https://www.kieranajp.uk/articles/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Throwing ideas together with System.JS</title>
