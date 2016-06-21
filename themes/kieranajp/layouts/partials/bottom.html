@@ -11,6 +11,7 @@
                 var href = links[i].getAttribute('href');
 
                 if (href.indexOf('http://' + window.location.hostname) !== -1
+                    || href.indexOf('https://' + window.location.hostname) !== -1
                     || href.indexOf('//') === -1) {
                     continue;
                 }
