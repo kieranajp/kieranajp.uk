@@ -5,7 +5,7 @@ module.exports = {
     },
 
     files: {
-        stylesheets: { joinTo: 'themes/kieranajp/static/css/style.css' }
+        stylesheets: { joinTo: '../themes/kieranajp/static/css/style.css' }
     },
 
     plugins: {
