@@ -3,6 +3,7 @@ date  = "2015-12-14T23:53:27+01:00"
 title = "St. Eugene's Primary School"
 strap = "A platform for this little primary school to connect with parents."
 site  = "http://www.steugenesps.com/"
+link_text = "See the finished product"
 +++
 
 This little school in Northern Ireland had managed to scrape together the budget for a small website, so I was thrilled to be contacted and offered the opportunity to design and develop it.
