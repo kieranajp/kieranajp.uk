@@ -2,7 +2,7 @@ image: publysher/hugo
 
 pages:
     script:
-        - hugo
+        - hugo --theme=kieranajp
     artifacts:
         paths:
             - public
