@@ -1,6 +1,7 @@
 .article-panes
     display: flex
     flex-direction: column
+    flex-wrap: wrap
     list-style-type: none
     justify-content: space-between
 
@@ -14,6 +15,9 @@
         flex-basis: auto
         min-width: 175px
         padding: 0 1rem
+
+        @media screen and (min-width: 820px)
+            width: 30%
 
     h2
         flex-grow: 0
