@@ -4,6 +4,7 @@ title = "Kieran Patel | Web Developer"
 
 PygmentsCodeFences = true
 pygmentsstyle = "solarizedlight"
+pygmentsoptions = "startinline=true"
 
 [Params]
     Author = "Kieran Patel"
