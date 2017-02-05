@@ -1,6 +1,5 @@
 +++
-date  = "2016-05-26T23:49:51+02:00"
-draft = true
+date  = "2016-11-26T23:49:51+02:00"
 title = "kieranajp.uk"
 strap = "Autopsy of the site you're reading right now!"
 site  = "https://kieranajp.uk"
@@ -33,21 +32,21 @@ However, the problem came with getting this working for adding content. I wanted
 
 As much as I wanted my own solution to the content problem, I decided to not reinvent the wheel. Static site builders are fairly prolific these days, and while I hadn't used one and fallen for it yet, I figured it was worth spending some time searching for one I liked.
 
-![I imagine this is what "Mr. Hugo" must look like](hugo.jpg "I imagine this is what "Mr. Hugo" must look like")
+![I imagine this is what "Mr. Hugo" must look like](mr-hugo.jpg "I imagine this is what 'Mr. Hugo' must look like")
 
-Enter [Hugo](https://gohugo.io). I actually found this because my Vim config is based heavily off [Hugo's author's](https://github.com/spf13/spf13-vim), and I was looking at his other repositories. Hugo immediately stood out of the crowd to me because it's a [fairly large open-source Go project](https://github.com/spf13/hugo), and at the time I was starting out learning the language, so I figured that I could learn a bit from reading its source code. It also is very feature-rich, compiles in a flash with hot reloading, and has thorough, professional documentation.
+Enter [Hugo](https://gohugo.io). I actually found this because my Vim config is based heavily off (ahem, stolen from) [Hugo's author's](https://github.com/spf13/spf13-vim), and I was looking at his other repositories. Hugo immediately stood out of the crowd to me because it's a [fairly large open-source Go project](https://github.com/spf13/hugo), and at the time I was starting out learning the language, so I figured that I could learn a bit from reading its source code. It also is very feature-rich, compiles in a flash with hot reloading, and has thorough, professional documentation.
 
 I was able to convert my JSX from the React site over to Hugo's templating system fairly easily, and I also took my CSS Modules and converted them to plain SASS. There wasn't really any need for this second step, but I wasn't working in terms of quite so small and neat components anymore, so I wanted my styling to match the structure of the rest of the site code. As a bonus, Hugo uses a theming system, so if and when the time comes to jazz up my website again I can simply create a new theme, and swap between the two with one quick compile.
 
 ## Lessons learned
 
-That's pretty much where the site stands at the time of writing. 
+That's pretty much where the site stands at the time of writing.
 
-Initially, I made the classic mistake of programmers the world over and _tried to get a bit too fancy_. I was lured in by React, the new shiny, and while it is a joy to work with, it was the _wrong tool for the job_. I wanted to use it, but that made everything look like a nail. I think it would be fun to build a React/JSX based static site builder, but that's was far too much of a chunk to bite off when all I wanted was to start blogging.
+Initially, I made the classic mistake of programmers the world over and _tried to get a bit too fancy_. I was lured in by React, the new shiny, and while it is a joy to work with, it was the _wrong tool for the job_. I wanted to use it, but that made [everything look like a nail](https://en.wikipedia.org/wiki/Law_of_the_instrument). I think it would be fun to build a React/JSX based static site builder, but that's was far too much of a chunk to bite off when all I wanted was to start blogging.
 
-![Too much want](dog.jpg "Bit off more than I could chew")
+![Too much want](too-much-want.jpg "Bit off more than I could chew")
 
-However, converting what I'd done to use Hugo was very simple, thanks largely in part to React forcing me to think in terms of small, reusable components. I don't think of the React build as _time wasted_ - in fact, it was a very useful prototype, both in terms of kickstarting my new website and in terms of being able to learn about new things (namely CSS Modules). If anything this comports with the ["plan to throw one out" ethos]() - all in all, a useful educational experience, but my first attempt was the wrong solution to a tangential problem. Ultimately I'm glad that I didn't have to throw everything away - the design and a lot of the CSS remains - but I made the right choice to switch for a "real" static site generator.
+However, converting what I'd done to use Hugo was very simple, thanks largely in part to React forcing me to think in terms of small, reusable components. I don't think of the React build as _time wasted_ - in fact, it was a very useful prototype, both in terms of kickstarting my new website and in terms of being able to learn about new things (namely CSS Modules). If anything this comports with the ["plan to throw one out" ethos](http://wiki.c2.com/?PlanToThrowOneAway) - all in all, a useful educational experience, but my first attempt was the wrong solution to a tangential problem. Ultimately I'm glad that I didn't have to throw everything away - the design and a lot of the CSS remains - but I made the right choice to switch for a "real" static site generator.
 
 Unfortunately, I've not bothered to open-source the site yet, mostly due to licensing problems with the [typeface I'm using](http://www.myfonts.com/fonts/intelligent-foundry/averta-standard/), but I intend to eventually, and the React version of the site [is open-sourced](https://github.com/kieranajp/websitev3).
 
