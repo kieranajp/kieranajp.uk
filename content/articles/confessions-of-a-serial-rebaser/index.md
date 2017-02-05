@@ -1,7 +1,6 @@
 +++
-date = "2016-12-01T20:00:42+02:00"
+date = "2017-02-05T18:20:42+02:00"
 strap = "I'm always asking my team to clean up their Git history. Here's what I mean by that."
-draft = true
 title = "Confessions of a Serial Rebaser"
 +++
 
@@ -19,7 +18,7 @@ There's two "types" of rebasing (strictly speaking not true, but it's how I thin
 
 ### Rebasing master in
 
-Firstly, by rebasing master into your branch, it's like your commits all occurred _after_ the work that was done in master. Chronologically this may not be true, but this allows master to read as a history of what was merged when (and for us with continuous deployment, what went onto our staging server when). This means you don't need to merge master into your branch as this has the same effect, allowing for a clean merge when the PR is complete. 
+Firstly, by rebasing master into your branch, it's like your commits all occurred _after_ the work that was done in master. Chronologically this may not be true, but this allows master to read as a history of what was merged when (and for us with continuous deployment, what went onto our staging server when). This means you don't need to merge master into your branch as this has the same effect, allowing for a clean merge when the PR is complete.
 
 This is super simple to achieve. First, make sure you have everything up to date locally in both your own branch and master:
 
@@ -67,7 +66,9 @@ pick 7fadd64 Finished refactoring repository.go
 pick 9c6e0a9 fix typo
 ```
 
-Below this instructions are kindly provided (thanks Git!), but in short you want to change the first word of each line to match what you want to do to that commit. We want to `squash` these three commits into one, so we can change the instruction for the last two commits here to `squash` (or `s` for short). Vim's `ciw` (change inside word) is invaluable here!
+Below this instructions are kindly provided (thanks Git!), but in short you want to change the first word of each line to match what you want to do to that commit. We want to `squash` these three commits into one, so we can change the instruction for the last two commits here to `squash` (or `s` for short).
+
+> N.B. Vim's `ciw` (change inside word) is invaluable here! 💚
 
 ```
 pick bf460ea wip on repository.go
@@ -100,6 +101,6 @@ If you're using a sensible git branching model, the benefits of having a clean h
 
 If the history is polluted with merge commits, "wips", and "fix typos", it becomes much more difficult to remember what was going on back then. Better to rebase that typo out of existence rather than dedicate a commit to a one-letter change.
 
-![](john-connor.jpg)
+![](rebase.gif)
 
 By having a policy of only merging pull requests with a neat history, you gain a few benefits, and your repository looks far more… _professional_ for it.
