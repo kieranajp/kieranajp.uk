@@ -1,10 +1,14 @@
 baseurl = "https://www.kieranajp.uk/"
 languageCode = "en-gb"
 title = "Kieran Patel | Web Developer"
+theme = "kieranajp"
 
 PygmentsCodeFences = true
 pygmentsstyle = "solarizedlight"
 pygmentsoptions = "startinline=true"
+
+[blackfriday]
+    hrefTargetBlank = true
 
 [Params]
     Author = "Kieran Patel"
