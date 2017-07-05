@@ -6,19 +6,21 @@ strap = "Things to know (and mistakes not to make) if you're undergoing wisdom t
 
 Here's a non-technical blog post for a change: 24 hours after getting my wisdom teeth out, I've decided to chronicle my experience so that others can learn from what's currently helping me recover.
 
-I knew my teeth needed extracting almost two years ago, once my dentist in the UK told me that one of my teeth was severely impacted (lower left), but, knowing I wanted to move country, I put it off until I came over.
+I knew my teeth needed extracting almost two years ago, once my dentist in the UK told me that one of my teeth was severely impacted (lower left), but, knowing I wanted to move country, I put it off until I came over to Germany.
 
 And then I put it off some more.
 
-Fast-forward to a couple of weeks ago, when one of the bastards was causing me pain (lower right), and I decided to hit up the dentist and check out my options. She recommended that I have all 4 our—the two lower ones needed doing, but if I want to get my top row straightened up in future (which would be nice) then the other two would have to go as well. I opted to get all four out at once—a decision I stand behind, as I wouldn't want to go through this twice. A couple of weeks later, I was in the *oralchirugie* with a hood over my face, a circular saw in my mouth, and sweat running down my back.
+Fast-forward to a couple of weeks ago, when one of the bastards was causing me pain (lower right), and I decided to hit up the dentist and check out my options. She recommended that I have all 4 out—the two lower ones needed doing, but if I want to get my top row straightened up in future (which would be nice) then the other two would have to go as well. I opted to get all four out at once—a decision I stand behind, as I wouldn't want to go through this twice. Nary a couple of weeks later (German efficiency!), I was in the *oralchirugie* with a hood over my face, a circular saw in my mouth, and sweat running down my back.
 
 ![](lisa.gif)
 
 ### The surgery itself
 
-Before the surgery I'd made sure to clean and tidy my apartment (though I forgot to make the bed—first mistake). I'd stocked up on ibuprofen, soup, smoothie, [off-brand Soylent](https://queal.com/), which turned out to be esesential (first tip). I also got an Xbox in preparation 😜. The surgery was booked for the afternoon, which was great as it meant I could sleep sooner (tip two).
+Before the surgery I'd made sure to clean and tidy my apartment (though I forgot to make the bed—first mistake). I'd stocked up on ibuprofen, soup, smoothie, and [off-brand Soylent](https://queal.com/), which turned out to be esesential (first tip). I also got an Xbox in preparation 😜. The surgery was booked for the afternoon, which was great as it meant I could sleep sooner (tip two).
 
-Actually, the procedure was entirely painless (local anaesthetic is great stuff), but it was less than pleasant having my teeth cut up into tiny chunks, forcibly jerked out of the gum, and vaccumed up (hopefully before they fell down my throat). 1/5, would not recommend.
+Actually, the procedure was entirely painless (local anaesthetic is great stuff), but it was less than pleasant having my teeth cut up into tiny chunks, forcibly jerked out of the gum, and vaccumed up (hopefully before they fell down my throat). ⭑⭒⭒⭒⭒, would not recommend.
+
+![](one-star.png)
 
 Throughout the surgery I was trying hard to let my shoulders and back go limp, and not tense up. It was harder than expected, but it gave me something else to focus on, and possibly saved me some back pain and knots (third tip). At one point I felt cold liquid running down my throat and almost choked on it—turns out it was just water and I should have just swallowed (second mistake). The surgery lasted about an hour; [Edele](http://edelegormley.xyz) insisted on being in the waiting room the whole time, and while I was resistant to it at first, I ended up really glad she was there 😊.
 
@@ -59,9 +61,13 @@ I went to bed without brushing my teeth (God, I miss brushing my teeth most of a
 
 ### I love my toothbrush
 
-The next day (today!) I woke up tasting *disgusting*, and spent a lot of time in the bathroom just spitting out thick, dehydrated, foul-smelling saliva. The bleeding must have slowed to an ooze, because my spit was just kind of pink now, not full-on mouthfulls of blood. I looked a lot like Droopy, if Droopy had two lemons in his mouth. No, I didn't take any pictures. I brushed just my front teeth a couple of times and used the smallest sip of mouthwash, which helped. I was able to drink about half a portion of fake Soylent (so about 350 calories) and I felt a bit stronger after that. I expected to be able to do some coding, but the pain and possibly the blood loss left me unable to concentrate, so I just played Xbox for a couple of hours and then [read my book](http://www.goodreads.com/book/show/7937744-surface-detail) for a couple more.
+The next day (today!) I woke up tasting *disgusting*, and spent a lot of time in the bathroom just spitting out thick, dehydrated, foul-smelling saliva. The bleeding must have slowed to an ooze, because my spit was just kind of pink now, not full-on mouthfulls of blood. I looked a lot like Droopy, if Droopy had two lemons in his mouth. No, I didn't take any pictures.
 
-### *Eiskaffee*
+![](droopy.jpg)
+
+I brushed just my front teeth a couple of times and used the smallest sip of mouthwash, which helped. I was able to drink about half a portion of fake Soylent (so about 350 calories) and I felt a bit stronger after that. I expected to be able to do some coding, but the pain and possibly the blood loss left me unable to concentrate, so I just played Xbox for a couple of hours and then [read my book](http://www.goodreads.com/book/show/7937744-surface-detail) for a couple more.
+
+### __*Eiskaffee*__
 
 At about 2:30pm the caffeine headaches kicked in, so bearing in mind I couldn't have dairy or hot drinks (and also wanting to avoid sugar, even though it wasn't explicitly *verboten*) I decided to make black iced coffee (tip five!). I added a double scoop of coffee to an [Aeropress](https://aerobie.com/product/aeropress/), about half-filled it with hot water, and stirred for 90 seconds (colder coffee requires that much more strength to taste any good), then plunged it into a glass full of ice and stirred. Worked quite well, really, and that first hit of caffeine was bliss. Yes, I'm a junkie.
 

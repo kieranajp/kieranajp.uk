@@ -6,9 +6,12 @@ main
     margin: 0 auto
     line-height: 2rem
 
-h1, h2, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6, strong
     font-weight: normal
     font-family: $font-headings
+
+    > em
+        font-family: $font-italic-bold
 
 p
     margin-bottom: 1rem
@@ -42,10 +45,6 @@ pre, code
 
     span
         line-height: 2.2
-
-strong
-    font-family: $font-headings
-    font-weight: normal
 
 em, blockquote
     font-style: normal
